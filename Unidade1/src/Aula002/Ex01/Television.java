@@ -1,3 +1,5 @@
+package Aula002.Ex01;
+
 public class Television {
   public static void main(String[] args) {
     RemoteControl rc = new RemoteControl();

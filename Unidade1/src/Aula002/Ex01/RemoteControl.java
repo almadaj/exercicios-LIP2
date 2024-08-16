@@ -1,3 +1,5 @@
+package Aula002.Ex01;
+
 public class RemoteControl{
   public int channel;
   public int volume;
