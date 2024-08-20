@@ -5,6 +5,8 @@ public class Main {
         Professor p = new Professor ("Juliano", 123);
         Disciplina poo = new Disciplina (312, "POO");
         poo.setProfessor(p);
+        p.setDisciplina(poo);
         System.out.println("Professor: " + poo.getProfessor());
+        System.out.println("Disciplina: " + p.getDisciplina());
     }
 }
