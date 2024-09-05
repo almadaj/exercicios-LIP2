@@ -1,5 +1,6 @@
 package Aula007;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Departamento {
@@ -10,6 +11,8 @@ public class Departamento {
     public Departamento(int idDep, String descricao){
         this.idDep = idDep;
         this.descricao = descricao;
+        this.pessoas = new ArrayList<>();
+
     }
     protected void getIdDep(int idDep){
         this.idDep = idDep;
