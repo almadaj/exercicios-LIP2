@@ -1,3 +1,5 @@
+package Aula005;
+
 public class Account{
   private double amount;
 
