@@ -3,7 +3,7 @@ package Aula009;
 public class NovoImovel extends Imovel{
     private double adicional;
 
-    public NovoImovel(double adicional, double preco){
+    public NovoImovel( double preco, double adicional ){
         super(preco);
         this.adicional = adicional;
     }
