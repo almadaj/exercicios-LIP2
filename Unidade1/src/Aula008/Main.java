@@ -7,7 +7,6 @@ public class Main {
     Venda v = new Venda(14, c, f);
     c.addCompra(v);
     f.addVenda(v);
-
     f.showVendasFuncionario();
     }
 }
