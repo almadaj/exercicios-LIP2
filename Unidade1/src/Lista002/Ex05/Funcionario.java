@@ -1,36 +1,36 @@
-package NP1.Aula008;
-import NP1.Aula007.Pessoa;
+package Lista002.Ex05;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Funcionario extends Pessoa{
-    protected double salario;
+    private double salario;
     private List<Venda> vendas;
 
-    public Funcionario(int idPessoa, String nome){
-        super(idPessoa);
-        setNome(nome);
+    public Funcionario(int codigo, String nome){
+        super(codigo);
+        this.nome = nome;
         this.vendas = new ArrayList<>();
-    }
-
-    public void setSalario(double salario) {
-        this.salario = salario;
     }
 
     public double getSalario() {
         return salario;
     }
 
+    public void setSalario(double salario){
+        this.salario = salario;
+    }
+
     public String getNome(){
         return nome;
-  }
+    }
+
     public void addVenda(Venda venda){
         this.vendas.add(venda);
     }
     public void showVendasFuncionario(){
         for(Venda v:vendas){
-            System.out.println(v.getCodigo());
+            System.out.println(v.getCodigoVenda());
         }
     }
 }
