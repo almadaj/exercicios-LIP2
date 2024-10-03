@@ -1,4 +1,4 @@
-package Lista002.Ex05;
+package NP1.Ex05;
 
 public class Pessoa {
     private int codigo;

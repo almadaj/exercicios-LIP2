@@ -1,6 +1,5 @@
 package NP1.Questao005;
 
-import Aula008.Venda;
 
 import java.util.ArrayList;
 import java.util.List;

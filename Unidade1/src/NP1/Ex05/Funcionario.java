@@ -1,4 +1,4 @@
-package Lista002.Ex05;
+package NP1.Ex05;
 
 import java.util.ArrayList;
 import java.util.List;
