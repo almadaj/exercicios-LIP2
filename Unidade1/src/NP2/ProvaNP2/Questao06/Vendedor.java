@@ -1,4 +1,4 @@
-package ProvaNP2.Questao06;
+package NP2.ProvaNP2.Questao06;
 
 public class Vendedor extends Funcionario {
     private int qtdeVendas;

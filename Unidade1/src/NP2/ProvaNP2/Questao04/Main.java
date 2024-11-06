@@ -1,4 +1,4 @@
-package ProvaNP2.Questao04;
+package NP2.ProvaNP2.Questao04;
 
 public class Main {
     public static void main(String[] args) {
